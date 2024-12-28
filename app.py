@@ -19,6 +19,7 @@ def get_gemini_response(question):
 st.set_page_config(page_title='Chatbot for Q%A')
 st.header('Chatbot for Q@A by vikas')
 st.header('this is a simple chetbot using gemini')
+st.header('for some basic uses!')
 
 input = st.text_input("Input :" , key="input")
 
